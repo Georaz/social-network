@@ -1,0 +1,17 @@
+.contentHeader {
+    max-width: 1000px;
+    max-height: 200px;
+   overflow: hidden;
+}
+
+.descriptionWrapper {
+    padding: 10px;
+}
+
+.mainPhoto {
+    max-width: 200px;
+}
+
+.contact {
+    padding-left: 10px;
+}

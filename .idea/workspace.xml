@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="25180355-99cb-43d2-afdc-cccc02046b4e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../react-way-of-samurai/src/components/Profile/ProfileInfo/ProfileInfo.jsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../react-way-of-samurai/src/components/Profile/ProfileInfo/ProfileDataForm.jsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../react-way-of-samurai/src/components/common/Paginator/Paginator.jsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../react-way-of-samurai/src/components/Users/User.jsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../react-way-of-samurai/src/redux/app-reducer.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../react-way-of-samurai/src/components/common/FormsControls/FormsControls.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../react-way-of-samurai/src/redux/profile-reducer.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../react-way-of-samurai/src/components/Profile/ProfileContainer.jsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../react-way-of-samurai/src/components/Users/Users.jsx" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="1s7CDf0xu9HiWZMygCfkTNBIQqA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../react-way-of-samurai/src/redux/profile-reducer.js" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.1.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\SantaUser\Downloads\cmder\react_social_network\src\components\common\Paginator" />
+      <recent name="C:\Users\SantaUser\Downloads\cmder\react_social_network\src\components\Profile\ProfileInfo" />
+      <recent name="C:\Users\SantaUser\Downloads\cmder\react_social_network\src\components\Users" />
+      <recent name="C:\Users\SantaUser\Downloads\cmder\react_social_network\src\redux" />
+      <recent name="C:\Users\SantaUser\Downloads\cmder\react_social_network\src\components\Header" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\SantaUser\Downloads\cmder\react_social_network\src\components\common\Paginator" />
+      <recent name="C:\Users\SantaUser\Downloads\cmder\react_social_network\src\components\common" />
+      <recent name="C:\Users\SantaUser\Downloads\cmder\react_social_network\src\components\Profile" />
+      <recent name="C:\Users\SantaUser\Downloads\cmder\react_social_network\src\components\Navbar" />
+      <recent name="C:\Users\SantaUser\Downloads\cmder\react_social_network\src\components\Header" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Jest.Paginator component tests">
+    <configuration name="Paginator component tests" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/components/common/Paginator/Paginator.test.jsx" />
+      <test-names>
+        <test-name value="Paginator component tests" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="ProfileStatus component.After creation &lt;input&gt; shouldn't be displayed" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatus.test.jsx" />
+      <test-names>
+        <test-name value="ProfileStatus component" />
+        <test-name value="After creation &lt;input&gt; shouldn't be displayed" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="ProfileStatus component.Callback should be called" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatus.test.jsx" />
+      <test-names>
+        <test-name value="ProfileStatus component" />
+        <test-name value="Callback should be called" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="ProfileStatus component.Input should be displayed in editMode instead of span" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatus.test.jsx" />
+      <test-names>
+        <test-name value="ProfileStatus component" />
+        <test-name value="Input should be displayed in editMode instead of span" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.deploy" />
+        <item itemvalue="Jest.Paginator component tests" />
+        <item itemvalue="Jest.ProfileStatus component.Callback should be called" />
+        <item itemvalue="Jest.ProfileStatus component.Input should be displayed in editMode instead of span" />
+        <item itemvalue="Jest.ProfileStatus component.After creation &lt;input&gt; shouldn't be displayed" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="25180355-99cb-43d2-afdc-cccc02046b4e" name="Default Changelist" comment="" />
+      <created>1620214123693</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1620214123693</updated>
+      <workItem from="1620214148208" duration="8207000" />
+      <workItem from="1620306307367" duration="10407000" />
+      <workItem from="1620330329248" duration="1384000" />
+      <workItem from="1620376621767" duration="11457000" />
+      <workItem from="1620413062004" duration="2968000" />
+      <workItem from="1620478015544" duration="6600000" />
+      <workItem from="1620495282197" duration="490000" />
+      <workItem from="1620869434253" duration="8302000" />
+      <workItem from="1620893857725" duration="3989000" />
+      <workItem from="1620906967160" duration="4090000" />
+      <workItem from="1620970585023" duration="20544000" />
+      <workItem from="1621058934438" duration="5212000" />
+      <workItem from="1621071605632" duration="3853000" />
+      <workItem from="1621078966923" duration="9005000" />
+      <workItem from="1621227778316" duration="17730000" />
+      <workItem from="1621266040615" duration="3422000" />
+      <workItem from="1621269833705" duration="1315000" />
+      <workItem from="1621320643396" duration="8764000" />
+      <workItem from="1621353799685" duration="7013000" />
+      <workItem from="1621435777596" duration="7288000" />
+      <workItem from="1621496844233" duration="6337000" />
+      <workItem from="1621510546835" duration="11943000" />
+      <workItem from="1621573230427" duration="2173000" />
+      <workItem from="1621586274825" duration="5889000" />
+      <workItem from="1621607587207" duration="929000" />
+      <workItem from="1622052418051" duration="4456000" />
+      <workItem from="1622105478013" duration="9354000" />
+      <workItem from="1622128542541" duration="4877000" />
+      <workItem from="1622182055973" duration="14752000" />
+      <workItem from="1622213421597" duration="6176000" />
+      <workItem from="1622277683096" duration="6894000" />
+      <workItem from="1622289080390" duration="3196000" />
+      <workItem from="1622305757559" duration="2340000" />
+      <workItem from="1622310296123" duration="9175000" />
+      <workItem from="1622347925308" duration="2641000" />
+      <workItem from="1622568935095" duration="881000" />
+      <workItem from="1622627737691" duration="7326000" />
+      <workItem from="1622652678408" duration="2451000" />
+      <workItem from="1622708565724" duration="6000" />
+      <workItem from="1622709401038" duration="185000" />
+      <workItem from="1622716076707" duration="9192000" />
+      <workItem from="1622735932691" duration="7538000" />
+      <workItem from="1622787340652" duration="14136000" />
+      <workItem from="1622827929070" duration="4335000" />
+      <workItem from="1622877137532" duration="1126000" />
+      <workItem from="1622887595948" duration="9911000" />
+      <workItem from="1623146268646" duration="1196000" />
+      <workItem from="1623148988745" duration="364000" />
+      <workItem from="1623149918495" duration="78000" />
+      <workItem from="1623150518977" duration="5365000" />
+      <workItem from="1623218730786" duration="14645000" />
+      <workItem from="1623237146769" duration="1827000" />
+      <workItem from="1623244295978" duration="10191000" />
+      <workItem from="1623310079652" duration="24158000" />
+      <workItem from="1623382666775" duration="7895000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="gh-pages" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

@@ -1,0 +1,24 @@
+.nav {
+    grid-area: n;
+    background-color: #463940;
+    padding: 20px;
+}
+
+.nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    margin-bottom: 15px;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav a.active {
+    color: gold;
+}
