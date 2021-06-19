@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/social-network/static/css/main.44176c6a.chunk.css",
+    "main.css": "/social-network/static/css/main.226bb113.chunk.css",
     "main.js": "/social-network/static/js/main.a359e3cb.chunk.js",
     "main.js.map": "/social-network/static/js/main.a359e3cb.chunk.js.map",
     "runtime-main.js": "/social-network/static/js/runtime-main.46895659.js",
@@ -16,7 +16,7 @@
     "index.html": "/social-network/index.html",
     "static/css/3.1806f979.chunk.css.map": "/social-network/static/css/3.1806f979.chunk.css.map",
     "static/css/4.3b2d367c.chunk.css.map": "/social-network/static/css/4.3b2d367c.chunk.css.map",
-    "static/css/main.44176c6a.chunk.css.map": "/social-network/static/css/main.44176c6a.chunk.css.map",
+    "static/css/main.226bb113.chunk.css.map": "/social-network/static/css/main.226bb113.chunk.css.map",
     "static/js/2.82b1bc0e.chunk.js.LICENSE.txt": "/social-network/static/js/2.82b1bc0e.chunk.js.LICENSE.txt",
     "static/media/index.css": "/social-network/static/media/BGgrnetwork.8c5f2ba5.png",
     "static/media/avatar.8276449d.png": "/social-network/static/media/avatar.8276449d.png",
@@ -28,7 +28,7 @@
   "entrypoints": [
     "static/js/runtime-main.46895659.js",
     "static/js/2.82b1bc0e.chunk.js",
-    "static/css/main.44176c6a.chunk.css",
+    "static/css/main.226bb113.chunk.css",
     "static/js/main.a359e3cb.chunk.js"
   ]
 }
