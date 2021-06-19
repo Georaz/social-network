@@ -6,7 +6,7 @@ const Contact = ({contactTitle, contactValue}) => {
 }
 
 const ProfileData = ({profile, isOwner, goToEditMode}) => {
-    return(
+    return (
         <div className={classes.profileData}>
             <div className={classes.profileDataItem}>
                 <b>Full name:</b> {profile.fullName}
@@ -24,10 +24,12 @@ const ProfileData = ({profile, isOwner, goToEditMode}) => {
             </div>
             <div className={classes.profileDataItem}>
                 <b>Contacts:</b> {Object.keys(profile.contacts).map(key => {
-                return <Contact key={key} contactTitle={key} contactValue={profile.contacts[key]} />
+                return <Contact key={key} contactTitle={key} contactValue={profile.contacts[key]}/>
             })}
             </div>
-            {isOwner && <div><button className={classes.editButton} onClick={goToEditMode}>Edit</button></div>}
+            {isOwner && <div>
+                <button className={classes.editButton} onClick={goToEditMode}>Edit</button>
+            </div>}
         </div>
     )
 }

@@ -7,12 +7,14 @@ const Header = (props) => {
     return (
         <header className={classes.header}>
             <div className={classes.logoWrapper}>
-                <img src={logo} alt="" />
+                <img src={logo} alt=""/>
             </div>
             <div className={classes.loginBlock}>
-                { props.isAuth
-                    ? <div>{props.login}&#8195;<button className={classes.logOut} onClick={props.logout}>Log out</button></div>
-                    : <NavLink className={classes.logIn} to={'/login'}>Log in</NavLink> }
+                {props.isAuth
+                    ? <div>{props.login}&#8195;
+                        <button className={classes.logOut} onClick={props.logout}>Log out</button>
+                    </div>
+                    : <NavLink className={classes.logIn} to={'/login'}>Log in</NavLink>}
             </div>
         </header>
     )

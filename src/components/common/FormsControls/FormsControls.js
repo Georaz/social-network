@@ -26,7 +26,8 @@ export const Input = (props) => {
 
 export const createField = (className, placeholder, name, component, validators, id = "", props = {}, text = "") => (
     <React.Fragment>
-        <Field className={className} placeholder={placeholder} name={name} component={component} validate={validators} id={id}
+        <Field className={className} placeholder={placeholder} name={name} component={component} validate={validators}
+               id={id}
                {...props} />{text}
     </React.Fragment>
 )

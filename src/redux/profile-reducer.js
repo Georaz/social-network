@@ -17,7 +17,7 @@ let initialState = {
 };
 
 const profileReducer = (state = initialState, action) => {
-    switch(action.type) {
+    switch (action.type) {
         case ADD_POST: {
             let newPost = {
                 id: 5,
@@ -70,8 +70,8 @@ export const updateStatus = (status) => async (dispatch) => {
         if (response.data.resultCode === 0) {
             dispatch(setStatus(status));
         }
-    } catch(error) {
-       // alert("Too long status text")
+    } catch (error) {
+        // alert("Too long status text")
     }
 }
 
@@ -88,7 +88,7 @@ export const saveProfile = (profile) => async (dispatch, getState) => {
     if (response.data.resultCode === 0) {
         dispatch(getUserProfile(userId));
     } else {
-        dispatch(stopSubmit("edit-profile", {_error: response.data.messages[0] }));
+        dispatch(stopSubmit("edit-profile", {_error: response.data.messages[0]}));
         return Promise.reject(response.data.messages[0]);
     }
 }

@@ -23,7 +23,7 @@ const MyPosts = (props) => {
     return (
         <div className={classes.postsWrapper}>
             <h2>My posts</h2>
-                <AddNewPostFormRedux onSubmit={onAddPost} />
+            <AddNewPostFormRedux onSubmit={onAddPost}/>
             <div className={classes.posts}>
                 {postsElements}
             </div>
@@ -35,7 +35,8 @@ let AddNewPostForm = (props) => {
     return (
         <form onSubmit={props.handleSubmit}>
             <div>
-                <Field className={classes.textarea} name="newPostText" component={Textarea} validate={[required, maxLength10]} />
+                <Field className={classes.textarea} name="newPostText" component={Textarea}
+                       validate={[required, maxLength10]}/>
             </div>
             <div>
                 <button className={classes.addPostButton}>Add post</button>

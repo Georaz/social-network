@@ -12,7 +12,6 @@ import Preloader from "./components/common/Preloader/Preloader";
 import store from "./redux/redux-store";
 import {withSuspense} from "./hoc/withSuspense";
 import {Switch} from "react-router-dom";
-import classes from "./components/Navbar/Navbar.module.css";
 
 const DialogsContainer = React.lazy(() => import('./components/Dialogs/DialogsContainer'));
 const ProfileContainer = React.lazy(() => import('./components/Profile/ProfileContainer'));
@@ -21,7 +20,6 @@ class App extends Component {
 
     catchAllUnhandledErrors = (reason, promise) => {
         alert("Some error occurred");
-        //console.log(promiseRejectionEvent);
     }
 
     componentDidMount() {
@@ -35,35 +33,35 @@ class App extends Component {
 
     render() {
         if (!this.props.initialized) {
-            return <Preloader />
+            return <Preloader/>
         }
 
         return (
-                    <div className='app-wrapper'>
-                        <HeaderContainer/>
-                        <Navbar/>
-                        <div className='app-wrapper-content'>
-                            <Switch>
-                            <Route exact path='/'
-                                   render={() => <Redirect to={"/profile"} />}/>
+            <div className='app-wrapper'>
+                <HeaderContainer/>
+                <Navbar/>
+                <div className='app-wrapper-content'>
+                    <Switch>
+                        <Route exact path='/'
+                               render={() => <Redirect to={"/profile"}/>}/>
 
-                            <Route path='/dialogs'
-                                   render={withSuspense(DialogsContainer)}/>
+                        <Route path='/dialogs'
+                               render={withSuspense(DialogsContainer)}/>
 
-                            <Route path='/profile/:userId?'
-                                   render={withSuspense(ProfileContainer)} />
+                        <Route path='/profile/:userId?'
+                               render={withSuspense(ProfileContainer)}/>
 
-                            <Route path='/users'
-                                   render={() => <UsersContainer/>}/>
+                        <Route path='/users'
+                               render={() => <UsersContainer/>}/>
 
-                            <Route path='/login'
-                                   render={() => <LoginPage/>}/>
+                        <Route path='/login'
+                               render={() => <LoginPage/>}/>
 
-                            <Route path='*'
-                                   render={() => <div>404 NOT FOUND</div>}/>
-                            </Switch>
-                        </div>
-                    </div>
+                        <Route path='*'
+                               render={() => <div>404 NOT FOUND</div>}/>
+                    </Switch>
+                </div>
+            </div>
         )
     }
 }
@@ -77,9 +75,9 @@ let AppContainer = compose(
     connect(mapStateToProps, {initializeApp}))(App);
 
 const GRApp = (props) => {
-   return <HashRouter >
+    return <HashRouter>
         <Provider store={store}>
-            <AppContainer />
+            <AppContainer/>
         </Provider>
     </HashRouter>
 }
