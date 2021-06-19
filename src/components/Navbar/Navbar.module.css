@@ -1,7 +1,9 @@
 .nav {
     grid-area: n;
-    background-color: #463940;
+    background-color: #131c21;
     padding: 20px;
+    height: 100vh;
+    border-right: 1px solid #b1b3b5;
 }
 
 .nav ul {
@@ -11,14 +13,56 @@
 }
 
 .nav li {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .nav a {
     color: #fff;
+    font-size: 18px;
+    letter-spacing: 1px;
     text-decoration: none;
+}
+
+.nav a:hover {
+    color: #af8a31;
+    border-color: #af8a31;
+    transition-duration: 500ms;
 }
 
 .nav a.active {
     color: gold;
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    .nav ul {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 480px) {
+    .nav ul {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .nav a {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 479px) and (min-width: 320px) {
+    .nav ul {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .nav li {
+        margin: 10px;
+    }
+
+    .nav a {
+        font-size: 16px;
+    }
 }

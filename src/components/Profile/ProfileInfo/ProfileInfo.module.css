@@ -1,7 +1,7 @@
 .contentHeader {
     max-width: 1000px;
     max-height: 200px;
-   overflow: hidden;
+    overflow: hidden;
 }
 
 .descriptionWrapper {
@@ -14,4 +14,79 @@
 
 .contact {
     padding-left: 10px;
+}
+
+.userAvatarSection {
+    margin-bottom: 30px;
+}
+
+.mainPhotoWrapper {
+    margin-bottom: 20px;
+}
+
+.mainPhoto {
+    border: 1px solid #b1b3b5;
+}
+
+.mainPhotoUploader {
+    opacity: 0;
+    width: 1px;
+    height: 1px;
+}
+
+.mainPhotoUploaderLabel {
+    background-color: transparent;
+    border: 1px solid #b1b3b5;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.mainPhotoUploaderLabel:hover {
+    color: #af8a31;
+    border-color: #af8a31;
+    transition-duration: 500ms;
+}
+
+.userAvatarSection {
+    margin-right: 50px;
+}
+
+.userProfileHeaderWrapper {
+    display: flex;
+}
+
+.myStatusHeading {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 767px) and (min-width: 480px) {
+    .userAvatarSection {
+        margin-right: 20px;
+    }
+
+    .descriptionWrapper {
+        padding: 0;
+    }
+
+    .myStatusHeading {
+        font-size: 16px;
+    }
+
+    .myStatus {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 479px) and (min-width: 320px) {
+    .userProfileHeaderWrapper {
+        flex-direction: column;
+    }
+
+    .userAvatarSection {
+        order: 1;
+        margin-top: 15px;
+    }
 }

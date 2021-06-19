@@ -1,9 +1,11 @@
 import React from 'react';
 import classes from './Message.module.css';
 
-const Message = (props) => {
+const Message = ({messageTimeCounter, ...props}) => {
     return (
-        <div className={classes.message}>{props.message}</div>
+        <div className={classes.message}>
+            <span className={classes.messageTime}>{messageTimeCounter()}</span>{props.message}
+        </div>
     )
 }
 

@@ -1,3 +1,13 @@
 .message {
     color: #fff;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.messageTime {
+    color: #bebebe;
+    font-size: 12px;
+    position: absolute;
+    top: 2px;
+    left: -55px;
 }

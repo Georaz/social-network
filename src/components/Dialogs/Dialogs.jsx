@@ -9,13 +9,23 @@ const Dialogs = (props) => {
 
     let state = props.messagesPage;
 
-    let dialogsElements = state.dialogs.map( dialog => <DialogItem name={dialog.name} key={dialog.id} id={dialog.id} /> );
-    let messagesElements = state.messages.map( message => <Message message={message.message} key={message.id} id={message.id} />);
-    let newMessageBody = state.newMessageBody;
-
     let addNewMessage = (values) => {
         props.sendMessage(values.newMessageBody);
     }
+
+    let messageTimeCounter = () => {
+            let date = new Date();
+            return `${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`;
+        }
+
+    let dialogsElements = state.dialogs
+        .map( dialog => <DialogItem name={dialog.name} key={dialog.id} id={dialog.id} /> );
+    let messagesElements = state.messages
+        .map( message => <Message message={message.message}
+                                  key={message.id}
+                                  id={message.id}
+                                  messageTimeCounter={messageTimeCounter} />);
+    let newMessageBody = state.newMessageBody;
 
     if (!props.isAuth) return <Redirect to={'/login'} />;
 

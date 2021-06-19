@@ -12,9 +12,9 @@ const MyPosts = (props) => {
     let postsElements = props.posts.map(post => <Post key={post.id}
                                                       message={post.message}
                                                       likesCount={post.likesCount}
-                                                      id={post.id}/>);
-
-    let newPostElement = React.createRef();
+                                                      id={post.id}
+                                                      photo={post.photos}
+    />);
 
     let onAddPost = (values) => {
         props.addPost(values.newPostText);
@@ -35,10 +35,10 @@ let AddNewPostForm = (props) => {
     return (
         <form onSubmit={props.handleSubmit}>
             <div>
-                <Field name="newPostText" component={Textarea} validate={[required, maxLength10]} />
+                <Field className={classes.textarea} name="newPostText" component={Textarea} validate={[required, maxLength10]} />
             </div>
             <div>
-                <button>Add post</button>
+                <button className={classes.addPostButton}>Add post</button>
             </div>
         </form>
     )

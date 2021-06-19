@@ -10,9 +10,9 @@ import classes from "../common/FormsControls/FormsControls.module.css";
 const LoginForm = ({handleSubmit, error, captchaURL}) => {
     return (
         <form onSubmit={handleSubmit}>
-            {createField("Email", "email", Input, [required])}
-            {createField("Password", "password", Input, [required], {type: "password"})}
-            {createField(null, "rememberMe", Input, [], {type: "checkbox"}, "remember me")}
+            {createField(classes.loginEmail, "Email", "email", Input, [required])}
+            {createField(classes.loginPassword, "Password", "password", Input, [required], "",{type: "password"})}
+            {createField(classes.loginCheckbox, null, "rememberMe", Input, [], "", {type: "checkbox"}, "remember me")}
 
             {captchaURL && <img src={captchaURL} />}
             {captchaURL && createField("Symbols from an image", "captcha", Input, [required])}
@@ -22,7 +22,7 @@ const LoginForm = ({handleSubmit, error, captchaURL}) => {
             </div>
             }
             <div>
-                <button>Login</button>
+                <button className={classes.loginSubmit}>Login</button>
             </div>
         </form>
     )
@@ -40,8 +40,8 @@ const Login = (props) => {
     }
 
     return (
-        <div>
-            <h1>Login</h1>
+        <div className={classes.loginForm}>
+            <h1 className={classes.loginHeading}>Login</h1>
             <LoginReduxForm onSubmit={onSubmit} captchaURL={props.captchaURL} />
         </div>
     )
